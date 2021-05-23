@@ -53,7 +53,7 @@ exports.config = {
         // 5 instances get started at a time.
         //
         platformName:'Android',
-        'appium:udid':'R9XN606TPDJ',
+        //'appium:udid':'R9XN606TPDJ',
         'appium:appPackage':'br.com.sky.selfcare',
         'appium:appActivity':'br.com.sky.selfcare.features.main.launch.LaunchActivity',
         // If outputDir is provided WebdriverIO can capture driver session logs
