@@ -131,7 +131,7 @@ exports.config = {
     // see also: https://webdriver.io/docs/dot-reporter.html
     reporters: [['allure', {
         outputDir: 'allure-results',
-        disableWebdriverStepsReporting: true,
+        //disableWebdriverStepsReporting: false,
         disableWebdriverScreenshotsReporting: true,
     }]],
 
@@ -273,17 +273,19 @@ exports.config = {
         const allure = require('allure-commandline');
         const reportError = new Error('Could not generate Allure report')
         const generation = allure(['generate', 'allure-results', '--clean'])
+        const reportServe = allure(['serve'])
         return new Promise((resolve, reject) => {
             const generationTimeout = setTimeout(
                 () => reject(reportError),
-                5000)
+                20000)
 
             generation.on('exit', function(exitCode) {
                 clearTimeout(generationTimeout)
+                reportServe;
 
-                if (exitCode !== 0) {
-                    return reject(reportError)
-                }
+                    if (exitCode !== 0) {
+                        return reject(reportError)
+                    }
 
                 console.log('Allure report successfully generated')
                 resolve()

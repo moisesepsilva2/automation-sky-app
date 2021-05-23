@@ -1,0 +1,87 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "should alert an login attempt with invalid CPF",
+      "uid" : "72d37a12b5e7f3fd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621791269201,
+        "stop" : 1621791276544,
+        "duration" : 7343
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "R9XN606TPDJ-10" ]
+    }, {
+      "name" : "should show an unknown subscriber alert when user not found",
+      "uid" : "f87051a81f5704e2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621791295380,
+        "stop" : 1621791304049,
+        "duration" : 8669
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "R9XN606TPDJ-10" ]
+    }, {
+      "name" : "should show [Quero Assinar] link as enabled",
+      "uid" : "76a375240176e330",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621791291846,
+        "stop" : 1621791295380,
+        "duration" : 3534
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "R9XN606TPDJ-10" ]
+    }, {
+      "name" : "should not enable [Próximo] with invalid CPF",
+      "uid" : "e86aea5deee70f36",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621791276545,
+        "stop" : 1621791284296,
+        "duration" : 7751
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "R9XN606TPDJ-10" ]
+    }, {
+      "name" : "should be possible to reach login page",
+      "uid" : "10706ab2ebf240a2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621791254399,
+        "stop" : 1621791269200,
+        "duration" : 14801
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "R9XN606TPDJ-10" ]
+    }, {
+      "name" : "should enable [Próximo] with valid CPF",
+      "uid" : "3b865bfc5ece89a7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621791284297,
+        "stop" : 1621791291846,
+        "duration" : 7549
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "R9XN606TPDJ-10" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  } ]
+}
