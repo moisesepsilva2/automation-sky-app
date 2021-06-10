@@ -1,7 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun May 23 14:34:14 GFT 2021","Sun May 23 14:34:29 GFT 2021","14801","","login test","","login test","should be possible to reach login page","should be possible to reach login page",""
-"passed","Sun May 23 14:34:44 GFT 2021","Sun May 23 14:34:51 GFT 2021","7549","","login test","","login test","should enable [Próximo] with valid CPF","should enable [Próximo] with valid CPF",""
-"passed","Sun May 23 14:34:51 GFT 2021","Sun May 23 14:34:55 GFT 2021","3534","","login test","","login test","should show [Quero Assinar] link as enabled","should show [Quero Assinar] link as enabled",""
-"passed","Sun May 23 14:34:29 GFT 2021","Sun May 23 14:34:36 GFT 2021","7343","","login test","","login test","should alert an login attempt with invalid CPF","should alert an login attempt with invalid CPF",""
-"passed","Sun May 23 14:34:36 GFT 2021","Sun May 23 14:34:44 GFT 2021","7751","","login test","","login test","should not enable [Próximo] with invalid CPF","should not enable [Próximo] with invalid CPF",""
-"passed","Sun May 23 14:34:55 GFT 2021","Sun May 23 14:35:04 GFT 2021","8669","","login test","","login test","should show an unknown subscriber alert when user not found","should show an unknown subscriber alert when user not found",""
+"broken","Wed May 26 20:15:28 GFT 2021","Wed May 26 20:15:39 GFT 2021","11567","","login test","","login test","""before all"" hook for login test","""before all"" hook for login test",""

@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622070800396' stop='1622070816952'>
+    <name>login test</name>
+    <title>login test</title>
+    <test-cases>
+        <test-case start='1622070800397' status='broken' stop='1622070816951'>
+            <name>"before all" hook for login test</name>
+            <title>"before all" hook for login test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-10'/>
+            </parameters>
+            <steps>
+                <step start='1622070800409' status='passed' stop='1622070806883'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a22c20ab-a804-4b71-80fe-a20b7489e2bf-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='051dd020-c432-46e2-95ca-c4c00aaca6d9-attachment.json' type='application/json' size='905'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1622070806923' status='passed' stop='1622070807100'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='2f33f9f6-e87f-4110-b3c2-8dd8cde74c57-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='a34c6045-8c68-4555-8d4d-70ab4ed6081c-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1622070807434' status='passed' stop='1622070815960'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='2ddbee8f-664c-4d75-ba61-4a1fd2c148a0-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='6a903cb5-2688-442f-952f-6e916d137b42-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1622070815978' status='broken' stop='1622070816950'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='4d97e35c-d98d-453d-a9e4-1df85c01a4ca-attachment.json' type='application/json' size='70'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "//*[@text="CONTINUAR PARA SKY"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//*[@text="CONTINUAR PARA SKY"]" because element wasn't found
+                    at Object.implicitWait [as default] (C:\Users\moise\Documents\automation-sky-app\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\moise\Documents\automation-sky-app\node_modules\webdriverio\build\middlewares.js:19:29)
+                    at Element.runCommandWithHooks (C:\Users\moise\Documents\automation-sky-app\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\Users\moise\Documents\automation-sky-app\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\Users\moise\Documents\automation-sky-app\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.click (C:\Users\moise\Documents\automation-sky-app\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at Context.&lt;anonymous> (C:\Users\moise\Documents\automation-sky-app\test\specs\/login.test.js:10:26)
+                    at Context.executeSync (C:\Users\moise\Documents\automation-sky-app\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\moise\Documents\automation-sky-app\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

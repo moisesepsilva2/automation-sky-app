@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622070928022' stop='1622070939592'>
+    <name>login test</name>
+    <title>login test</title>
+    <test-cases>
+        <test-case start='1622070928023' status='broken' stop='1622070939590'>
+            <name>"before all" hook for login test</name>
+            <title>"before all" hook for login test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-10'/>
+            </parameters>
+            <steps>
+                <step start='1622070928032' status='passed' stop='1622070929512'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='22a56b3d-a5bc-44ce-a021-dd2c4076d8ce-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='53bd1a2e-80a7-4cb5-b3ce-87f18b320a6b-attachment.json' type='application/json' size='905'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1622070929551' status='passed' stop='1622070929684'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='154bd856-0e3a-454d-b240-a7ddce4b5501-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='87a256ae-08f5-4c0d-ac45-f0a5911b4a37-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1622070930056' status='passed' stop='1622070932323'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='2e99e580-b164-4b92-b918-008a14216ada-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='e4128616-fe00-4a97-b20f-8320a993d535-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1622070932340' status='passed' stop='1622070937149'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='63f1f477-52cd-4a63-a0aa-2fac1d247c22-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='be4e4248-5b97-4226-ad02-465ccaf9136b-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1622070937172' status='broken' stop='1622070939589'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='634ade5b-07f4-4d25-b373-7874791c0080-attachment.json' type='application/json' size='70'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "//*[@text="CONTINUAR PARA SKY"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//*[@text="CONTINUAR PARA SKY"]" because element wasn't found
+                    at Object.implicitWait [as default] (C:\Users\moise\Documents\automation-sky-app\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\moise\Documents\automation-sky-app\node_modules\webdriverio\build\middlewares.js:19:29)
+                    at Element.runCommandWithHooks (C:\Users\moise\Documents\automation-sky-app\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\Users\moise\Documents\automation-sky-app\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\Users\moise\Documents\automation-sky-app\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.click (C:\Users\moise\Documents\automation-sky-app\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at Context.&lt;anonymous> (C:\Users\moise\Documents\automation-sky-app\test\specs\/login.test.js:10:26)
+                    at Context.executeSync (C:\Users\moise\Documents\automation-sky-app\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\moise\Documents\automation-sky-app\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

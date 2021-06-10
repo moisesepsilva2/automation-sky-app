@@ -1,0 +1,215 @@
+{
+  "uid" : "2aaa9714711dc7b5",
+  "name" : "\"before all\" hook for login test",
+  "fullName" : "login test.\"before all\" hook for login test",
+  "historyId" : "440d7d8aa694f5bdf838611f56bdfc00",
+  "time" : {
+    "start" : 1622070928023,
+    "stop" : 1622070939590,
+    "duration" : 11567
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"//*[@text=\"CONTINUAR PARA SKY\"]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"//*[@text=\"CONTINUAR PARA SKY\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\webdriverio\\build\\middlewares.js:19:29)\n                    at Element.runCommandWithHooks (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Element.runCommandWithHooks (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Element.wrapCommandFn (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Element.click (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\webdriverio\\build\\middlewares.js:44:12)\n                    at Context.<anonymous> (C:\\Users\\moise\\Documents\\automation-sky-app\\test\\specs\\/login.test.js:10:26)\n                    at Context.executeSync (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call click on element with selector \"//*[@text=\"CONTINUAR PARA SKY\"]\" because element wasn't found",
+    "statusTrace" : "Error: Can't call click on element with selector \"//*[@text=\"CONTINUAR PARA SKY\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\webdriverio\\build\\middlewares.js:19:29)\n                    at Element.runCommandWithHooks (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Element.runCommandWithHooks (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Element.wrapCommandFn (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Element.click (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\webdriverio\\build\\middlewares.js:44:12)\n                    at Context.<anonymous> (C:\\Users\\moise\\Documents\\automation-sky-app\\test\\specs\\/login.test.js:10:26)\n                    at Context.executeSync (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1622070928032,
+        "stop" : 1622070929512,
+        "duration" : 1480
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ab4cb1e84b4de92e",
+        "name" : "Request",
+        "source" : "ab4cb1e84b4de92e.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "dd72b2ea5479c7d7",
+        "name" : "Response",
+        "source" : "dd72b2ea5479c7d7.json",
+        "type" : "application/json",
+        "size" : 905
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1622070929551,
+        "stop" : 1622070929684,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "54311b72758f9da9",
+        "name" : "Request",
+        "source" : "54311b72758f9da9.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "1be335241dfc8ea4",
+        "name" : "Response",
+        "source" : "1be335241dfc8ea4.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1622070930056,
+        "stop" : 1622070932323,
+        "duration" : 2267
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4061d68d2aabb059",
+        "name" : "Request",
+        "source" : "4061d68d2aabb059.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "28d9f72794b89cc",
+        "name" : "Response",
+        "source" : "28d9f72794b89cc.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1622070932340,
+        "stop" : 1622070937149,
+        "duration" : 4809
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d40dd79096cdaf04",
+        "name" : "Request",
+        "source" : "d40dd79096cdaf04.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "c2288f84f4204296",
+        "name" : "Response",
+        "source" : "c2288f84f4204296.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1622070937172,
+        "stop" : 1622070939589,
+        "duration" : 2417
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Can't call click on element with selector \"//*[@text=\"CONTINUAR PARA SKY\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\webdriverio\\build\\middlewares.js:19:29)\n                    at Element.runCommandWithHooks (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Element.runCommandWithHooks (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Element.wrapCommandFn (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Element.click (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\webdriverio\\build\\middlewares.js:44:12)\n                    at Context.<anonymous> (C:\\Users\\moise\\Documents\\automation-sky-app\\test\\specs\\/login.test.js:10:26)\n                    at Context.executeSync (C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\moise\\Documents\\automation-sky-app\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "393dd436a508f285",
+        "name" : "Request",
+        "source" : "393dd436a508f285.json",
+        "type" : "application/json",
+        "size" : 70
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 9,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "login test"
+  }, {
+    "name" : "testClass",
+    "value" : "login test"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for login test"
+  }, {
+    "name" : "package",
+    "value" : "login test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "emulator-5554-10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "43c4308999c5e829",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//*[@text=\"CONTINUAR PARA SKY\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1622070800397,
+        "stop" : 1622070816951,
+        "duration" : 16554
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2aaa9714711dc7b5.json",
+  "parameterValues" : [ "emulator-5554-10" ]
+}
